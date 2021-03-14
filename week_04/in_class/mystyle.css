@@ -1,0 +1,13 @@
+.alert-danger {
+  color: #4a738f;
+  background-color: #a8dafc;
+  border-color: #7191e9;
+}
+
+.alert-danger .alert-link {
+  color:dodgerblue;
+}
+.card {
+  padding: 0;
+  margin: 1rem;
+}
