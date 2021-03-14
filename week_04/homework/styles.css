@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lobster&family=Roboto+Slab:wght@100;400&display=swap');
+	
+.parallax {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/ef/47/f4/ef47f4c663869a49bdb6c70155e055a3.jpg");
+    min-height: auto;
+    /*  parallax scrolling effect  */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.dvdr {
+	
+	margin:0;
+	padding: 1REM;
+    background-color: #ADDCFA;
+    border: 0;
+    opacity:0.9;
+}
+	
+.indent
+{
+	font-family: 'Lobster', cursive;
+
+}
+
+
+.paragraph {
+	text-align: justify;
+	font-size: 1.2rem;
+	font-family: 'Roboto Slab', serif,thin;
+
+}
+
+
+.artitle {
+	
+	font-family: 'Chelsea Market', cursive;
+	text-align: center;
+	padding: 2rem;
+}
+
+.subheader {
+	
+	font-family: 'Roboto Slab', serif;
+	padding: .5rem;
+	display: block;
+	
+	
+}
+
+.lead {
+	
+	font-size: 1.5rem;
+}
+
