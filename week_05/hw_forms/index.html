@@ -8,40 +8,37 @@
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	
-<style>
-.parallax {
-    /* The image used */
-    background-image: url("https://images.pexels.com/photos/65777/pexels-photo-65777.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-    /* Set a specific height */
-    min-height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	
+
+        <link href=style.css rel="stylesheet">
+<style>	
+	.parallax {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-	.check {
-		background-color: orangered;
-		
-		align-content: center
-	}
 </style>
-<title>Checkout Form</title>
+<title>Form and a bit of J@v@</title>
 </head>
 
 <body>
 <header>
-	<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid"> <a class="navbar-brand" href="#">Cafe Rio Intag</a>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid"> <a class="navbar-brand" href="#">Forms</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav">
           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#tostado">Roast</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#menu">Order</a> </li>
-          <li class="nav-item dropup"> <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Social Media</a>
+          <li class="nav-item"> <a class="nav-link" href="#tostado">link1</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#menu">link2</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Social Media</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown10">
               <li><a class="dropdown-item" href="https://www.instagram.com/explore/locations/901395708/cafe-rio-intag/?hl=en"><img src="img/instagram.jpg" alt="instagram">Instagram</a></li>
               <li><a class="dropdown-item" href="https://www.facebook.com/CAFE-RIO-INTAG-1734180156598619/"><img src="img/facebook.jpg" alt="facebook"> cafe rio intag</a></li>
@@ -51,23 +48,28 @@
         </ul>
       </div>
     </div>
-  </nav></header>
+  </nav>
+
+</header>
 <main>
-  
-  <section class="py-5 text-xl-center parallax">
+ 
+	<section class="py-5 text-xl-center parallax">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <div class="row py-lg-5 my-5">
-          <div class="col-lg-8 col-md-10 mx-auto my-5">
-            <h1 class="display-1 text-white-50 -white " >Cafe Rio Intag</h1>
-          </div>
-        </div>
+      <div class="col-lg-8 col-md-6 mx-auto">
+      
+         <div class="row py-lg-5 my-5">
+      <div class="col-lg-12 col-md-10 mx-auto my-5">
+        <h1 class="titulo" >ready for your next adventure?</h1>
+     
       </div>
     </div>
-  </section>
-  <section id="tostado" class="container"> 
+		  
+      </div>
+    </div>
+  </section> 
+  <section id="reservations" class="container"> 
     
-    <!-- START THE FEATURETTES -->
+    <!-- FEATURETTES -->
     
     <hr class="featurette-divider">
     <div class="row featurette">
@@ -122,22 +124,12 @@
     <!-- /END THE FEATURETTES --> 
     
   </section>
-
-  <section id="home" class="py-5 text-xl-center container-fluid parallax">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto" style="color: whitesmoke">
-        <h1 class="fw-light">Show Hidden Form</h1>
-        <p class="lead" >lorem ipsum Glossier brunch cray gluten-free. Gochujang plaid direct trade fanny pack cliche. Ennui direct trade meggings, marfa biodiesel cred chambray. Franzen literally photo booth post-ironic taiyaki deep v air plant narwhal raclette chicharrones tilde paleo artisan shoreditch. Cloud bread literally drinking vinegar chia, post-ironic pickled taxidermy salvia mixtape knausgaard pabst godard crucifix.</p>
-        <p> <a href="#" class="btn btn-primary my-2" onClick="formshow()">Reserve Form</a> </p>
-      </div>
-    </div>
-  </section>
-	
-	<section id="check">
-		 <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="mt-3 display-5">Checkout!</h2>
+  
+  <!-- parallax-->
+  <div class="collapse my-5 mx-4" id="Checkoutform">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-8  mx-5">
+        <h2 class="mt-3 title">Reservations</h2>
         <form action="" method="POST">
           <fieldset>
             <div class="mb-3">
@@ -147,31 +139,63 @@
 
             <div class="mb-3">
               <label for="userEmail">Your email address</label>
-              <input type="email" name="userEmail" class="form-control" id="userEmail" placeholder="my@emal.com">
+              <input type="email" name="userEmail" class="form-control" id="userEmail" placeholder="my@email.com">
             </div>
-
             <div class="mb-3">
-              <label for="userPass">Your password</label>
-              <input type="password" name="userPass" class="form-control" id="userPass">
+              <label for="useradress">Your Adress</label>
+              <input type="text" name="userName" class="form-control" id="useradress" placeholder="1600 Pennsylvania Ave NW, Washington, D.C">
+            </div>
+            
+
+            <div class="col-md-6 ">
+              <label for="validationCustom03" class="form-label">Credit Card Number</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid credit card.
+              </div>
+            </div>
+            
+            <div class="col-md-6 ">
+              <label for="validationCustom03" class="form-label">Expiration Date</label>
+              <input type="text" class="form-control" id="validationCustom03" required placeholder="mm/dd">
+              <div class="invalid-feedback">
+                Please provide a valid credit card.
+              </div>
             </div>
 
-            <div class="mb-3">
-              <label for="userLocation">Your location</label>
-              <select class="form-select" name="userLocation" id="userLocation">
-                <option value="la">San Francisco</option>
-                <option value="sd" selected>Los Angeles</option>
-                <option value="sf">San Diego</option>
-                <option value="sc">Monterey</option>
-              </select>
-            </div>
+          
+            <div class="col-md-6 ">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
 
-            <div class="form-check form-switch mb-3">
+  </div>
+
+
+
+            <div class="form-check form-switch my-3">
               <input type="checkbox" name="termsAgree" id="termsAgree" class="form-check-input">
               <label for="termsAgree" class="form-check-label">Agree to terms of service.</label>
             </div>
 
           </fieldset>
-          <h3 class="display-5">Shipping Info</h3>
+          <h3 class="title">Shipping Info</h3>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="sameadress">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Same Recipient
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="otheradress" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Diferent Recipient
+            </label>
+          </div> 
+
           <fieldset>
             <div class="mb-3">
               <label for="shippingName">Recepient's name</label>
@@ -182,8 +206,13 @@
               <input type="text" name="shippingAddress" id="shippingAddress" class="form-control">
             </div>
             <div class="mb-3">
-              <label for="shippingCity">Recepient's city</label>
-              <input type="text" name="shippingCity" id="shippingCity" class="form-control">
+              <label for="userLocation">Recipient's location</label>
+              <select class="form-select" name="userLocation" id="userLocation">
+                <option value="la">San Francisco</option>
+                <option value="sd" selected>Los Angeles</option>
+                <option value="sf">San Diego</option>
+                <option value="sc">Monterey</option>
+              </select>
             </div>
           </fieldset>
           <button type="submit" class="btn btn-warning">Submit</button>
@@ -191,26 +220,45 @@
       </div>
     </div>
   </div>
-	</section>
+<section class="py-5 text-center parallax">
+    <div class="row py-lg-5 my-5">
+      <div class="col-lg-6 col-md-8 mx-auto my-5">
+        <h1 class="titulo" >The adventure awaits</h1>
+      
+        <p>  <a class="btn btn-primary" data-bs-toggle="collapse" href="#Checkoutform" role="button" aria-expanded="false" aria-controls="collapseExample">Reserve now!</a> </p>
+      </div>
+    </div>
+  </section>  
+  
+  <!-- Form-->  
+
+  
+ 
 </main>
 <footer>
   
 </footer>
 
+<!-- Option 1: Bootstrap Bundle with Popper --> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
- </script>
-	
-	<script>
-		
-	function formshow()
-{
-    if(a==1)
-        document.getElementById("check").style.display="none";
-    else
-        document.getElementById("asd").style.display="block";
-}
-	</script>
-	
+    </script>
+
+<script>
+  let uNinput = document.getElementById("userName useradress");
+  let shNinput = document.getElementById("shippingName shippingAddress");
+
+
+
+
+  uNinput.addEventListener("blur", function () {
+    if (this.value != "") {
+      shNinput.value = this.value;
+    } else {
+      alert("You forgot to type your name!");
+    }
+
+  })
+</script>
 </body>
 </html>
