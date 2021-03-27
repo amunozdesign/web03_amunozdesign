@@ -133,8 +133,8 @@
         <form action="" method="POST">
           <fieldset>
             <div class="mb-3">
-              <label for="userName">Your name</label>
-              <input type="text" name="userName" class="form-control" id="userName" placeholder="Type your name...">
+              <label for="userName" class="form-label">Your name</label>
+              <input type="text" class="form-control success" id="userName" name="userName"  placeholder="Type your name..." value="" required>
             </div>
 
             <div class="mb-3">
@@ -184,22 +184,14 @@
           <h3 class="title">Shipping Info</h3>
 
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="sameadress">
-            <label class="form-check-label" for="flexRadioDefault1">
-              Same Recipient
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="otheradress" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
-              Diferent Recipient
-            </label>
-          </div> 
+                            <input type="checkbox" value="" class="form-check-input" id="check-address">
+                            <label class="form-check-label option" for="check-address">Billing address is same as my shipping address</label>
+                        </div>
 
           <fieldset>
             <div class="mb-3">
-              <label for="shippingName">Recepient's name</label>
-              <input type="text" name="shippingName" id="shippingName" class="form-control">
+              <label for="shippingName" class="form-label">Recepient's name</label>
+              <input type="text" class="form-control success" id="shippingName" name="shippingName" placeholder="" value="" required>
             </div>
             <div class="mb-3">
               <label for="shippingAddress">Recepient's address</label>
@@ -244,6 +236,33 @@
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
 
+	<script type="text/javascript">
+            $(document).ready(function(){ 
+                $('#check-address').click(function(){ 
+                if ($('#check-address').is(":checked")) {
+                $('#shippingName').val($('#userName').val());
+       
+                $('#txtaddress1_billing').val($('#txtaddress1').val());
+           
+                $('#txtcountry_billing').val($('#txtcountry').val());
+              
+                var country = $('#country option:selected').val();
+                $('#country_billing option[value=' + country + ']').attr('selected','selected');
+                } else { //Clear on uncheck
+                $('#txtfname_billing').val("");
+                $('#txtlname_billing').val("");
+                $('#txtaddress1_billing').val("");
+                $('#txtaddress2_billing').val("");
+                $('#txtcountry_billing').val("");
+                $('#txtstate_billing').val("");
+                $('#txtcity_billing').val("");
+                $('#txtzip_billing').val("");
+                $('#country_billing option[value=""]').attr('selected','selected');
+                };
+                });
+            });
+        </script>
+	
 <script>
   let uNinput = document.getElementById("userName useradress");
   let shNinput = document.getElementById("shippingName shippingAddress");
