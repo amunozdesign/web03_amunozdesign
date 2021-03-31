@@ -239,40 +239,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-	<script type="text/javascript">
-  
-            $(document).ready(function(){ 
-                $('#copyaddress').click(function(){ 
-                if ($('#copyaddress').is(":checked")) {
-                $('#shippingName').val($('#userName').val());
-       
-                $('#shippingAddress').val($('#useradress').val());
-           
-          
-              
-            
-                } else { //Clear on uncheck
-                $('#shippingName').val("");
-                $('#shippingAddress').val("");
-               
-            });
-        </script>
-	
-	 <script>
-  let uNinput = document.getElementById("userName useradress");
-  let shNinput = document.getElementById("shippingName shippingAddress");
-
-
-  uNinput.addEventListener("blur", function () {
-    if (this.value != "") {
-      shNinput.value = this.value;
-    } else {
-      alert("You forgot to type your name!");
-    }
-
-  })
-</script> 
 </body>
 </html>
