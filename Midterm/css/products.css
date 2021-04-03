@@ -1,0 +1,25 @@
+
+section.jumbotron {
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.leadPhrase {
+font-size: 2rem;
+text-align: center;
+
+}
+
+.text-white {
+  color: #ededed !important;
+}
+
+.bg-transparent {
+  background-color: rgba(20, 20, 20, 0.7) !important;
+}
+
+
+img {
+  max-width: 100%;
+}
