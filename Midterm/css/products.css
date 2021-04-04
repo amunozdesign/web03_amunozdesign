@@ -1,4 +1,7 @@
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Tegomin&family=Roboto+Mono:wght@300&family=Zilla+Slab+Highlight&family=Zilla+Slab:wght@300&display=swap');
 section.jumbotron {
   height: 20rem;
   background-size: cover;
@@ -6,8 +9,10 @@ section.jumbotron {
 }
 
 .leadPhrase {
-font-size: 2rem;
+
+  font-size: 4rem;
 text-align: center;
+font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -22,4 +27,16 @@ text-align: center;
 
 img {
   max-width: 100%;
+}
+
+.featurette-heading{
+
+  font-family: 'Zilla Slab', serif;
+
+}
+.lead {
+  
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+
 }

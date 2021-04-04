@@ -1,0 +1,53 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Tegomin&family=Roboto+Mono:wght@300&family=Zilla+Slab+Highlight&family=Zilla+Slab:wght@300&display=swap');
+
+body {
+
+background-image:url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+background-repeat: repeat;
+background-color: black;
+
+
+}
+
+section.jumbotron {
+  background-color:rgb(0, 0, 0);
+  opacity: 0.6;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.leadPhrase {
+
+  font-size: 4rem;
+text-align: center;
+font-family: 'Bebas Neue', cursive;
+
+}
+
+.text-white {
+  color: white !important;
+  
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  
+}
+
+
+.lead {
+  
+  font-family: 'Roboto Mono', monospace;
+  text-align: justify;
+
+}
+.card{
+  margin-top: 100px;
+padding: 2rem;
+text-decoration: none;
+height: auto;
+}
