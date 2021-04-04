@@ -1,7 +1,9 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Tegomin&family=Roboto+Mono:wght@300&family=Zilla+Slab+Highlight&family=Zilla+Slab:wght@300&display=swap');
+body {
+  background-color: whitesmoke;
+  
+  }
+
 section.jumbotron {
   height: 20rem;
   background-size: cover;
@@ -50,3 +52,4 @@ img {
 .alert-danger .alert-link {
   color:dodgerblue;
 }
+

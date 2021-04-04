@@ -51,3 +51,14 @@ padding: 2rem;
 text-decoration: none;
 height: auto;
 }
+
+.alert-danger {
+  color: #4a738f;
+  background-color: #a8dafc;
+  border-color: #7191e9;
+  margin-bottom:0px;
+}
+
+.alert-danger .alert-link {
+  color:dodgerblue;
+}
