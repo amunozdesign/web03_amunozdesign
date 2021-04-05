@@ -11,8 +11,9 @@ font-size: 3rem;
 
 .carousel-caption {
   font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 4rem;
+  font-size: 2rem;
   color: whitesmoke;
+ 
 }
 .alert-danger {
   color: #4a738f;
