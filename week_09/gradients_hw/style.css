@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+/* ------------------------------------------------nav*/
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+.main {
+  background-image: linear-gradient(0deg, rgba(238, 174, 202, 1) 17%, rgba(148, 187, 233, 1) 100%);
+}
+.img-fluid {
+  width: 20vw;
+  padding: 0px;
+}
+.navbar {
+  background: rgb(253, 187, 45);
+  background: linear-gradient(146deg, rgba(253, 187, 45, 1) 0%, rgba(139, 190, 123, 1) 26%, rgba(110, 191, 143, 1) 35%, rgba(34, 193, 195, 1) 44%, rgba(34, 190, 195, 1) 51%, rgba(34, 165, 195, 1) 58%, rgba(34, 126, 195, 1) 84%, rgba(34, 67, 195, 1) 100%);
+  font-family: 'Emilys Candy', cursive;
+  font-size: 25px;
+}
+.navbar-brand:hover {
+  transform: rotate(1136deg) scale(1.75, 1.75);
+  transition: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+.navbar-brand:focus {
+  transform: rotate(-1024deg) scale(0.01, 0.01);
+  transition-timing-function: ease-out;
+  transition: 5s;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+ul li {
+  display: inline-block;
+  padding: 0px 30px;
+  border-radius: 50px;
+  border-style: outset;
+  transition: 900ms;
+  border-width: medium;
+  border-color: rgba(0, 0, 0, 0)
+}
+ul li:hover {
+  background-image: linear-gradient(to right, #e96443 0%, #904e95 51%, #e96443 100%);
+  padding: 0px 30px;
+  transition: 500ms;
+  border-radius: 50px;
+  border-style: inset;
+  border-bottom-width: medium;
+  border-color: rgba(0, 255, 255, 2);
+  color: white;
+  box-shadow: 0 0 20px #eee;
+}
+a {
+  text-decoration: none;
+}
+/* ----------------------------------------------thumbnails */
+.donut1, .donut2, .donut3, .donut4, .donut5, .donut6, .donut7, .donut8, .donut9 {
+  height: auto;
+  width: auto;
+  margin: 2rem;
+}
+/* ------------------------------------------------css effects*/
+.donut1:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut1:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut2:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut2:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut3:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut3:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut4:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut4:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut5:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut5:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut6:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut6:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut7:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut7:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut8:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut8:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
+.donut9:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.donut9:active {
+  transform: scale(2, 2);
+  transition: 1s;
+}
