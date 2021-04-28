@@ -31,7 +31,7 @@ ul {
 }
 ul li {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0px 25px;
   border-radius: 50px;
   border-style: outset;
   transition: 900ms;
@@ -40,7 +40,7 @@ ul li {
 }
 ul li:hover {
   background-image: linear-gradient(to right, #e96443 0%, #904e95 51%, #e96443 100%);
-  padding: 0px 20px;
+  padding: 0px 25px;
   transition: 500ms;
   border-radius: 50px;
   border-style: inset;
