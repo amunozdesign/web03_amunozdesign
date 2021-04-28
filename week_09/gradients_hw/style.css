@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
-/* ------------------------------------------------nav*/
+/* ------------------------------------------------nav-----------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 .main {
   background-image: linear-gradient(0deg, rgba(238, 174, 202, 1) 17%, rgba(148, 187, 233, 1) 100%);
 }
 .img-fluid {
-  width: 20vw;
+  width: 6vw;
   padding: 0px;
 }
 .navbar {
@@ -25,7 +25,6 @@
   transition-timing-function: ease-out;
   transition: 5s;
 }
-
 ul {
   list-style: none;
   padding-left: 0px;
@@ -41,7 +40,7 @@ ul li {
 }
 ul li:hover {
   background-image: linear-gradient(to right, #e96443 0%, #904e95 51%, #e96443 100%);
-  padding: 0px 30px;
+  padding: 0px 20px;
   transition: 500ms;
   border-radius: 50px;
   border-style: inset;
@@ -53,82 +52,25 @@ ul li:hover {
 a {
   text-decoration: none;
 }
-/* ----------------------------------------------thumbnails */
+/* ----------------------------------------------thumbnails -----------------------------------------------*/
 .donut1, .donut2, .donut3, .donut4, .donut5, .donut6, .donut7, .donut8, .donut9 {
   height: auto;
   width: auto;
   margin: 2rem;
 }
-/* ------------------------------------------------css effects*/
-.donut1:hover {
+
+/* ------------------------------------------------css effects-----------------------------------------------*/
+.donut1:hover, .donut2:hover, .donut3:hover, .donut4:hover, .donut5:hover, .donut6:hover, .donut7:hover, .donut8:hover, .donut9:hover {
   transform: scale(1.1, 1.1);
   transition: 0.5s;
 }
-.donut1:active {
+
+.donut1:active, .donut3:active, .donut5:active, .donut7:active, .donut9:active {
   transform: scale(2, 2) rotate(360deg);
   transition: 0.5s;
 }
-.donut2:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut2:active {
+
+.donut2:active, .donut4:active, .donut6:active, .donut8:active {
   transform: scale(2, 2) rotate(-360deg);
-  transition: 0.5s;
-}
-.donut3:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut3:active {
-  transform: scale(2, 2) rotate(360deg);
-  transition: 0.5s;
-}
-.donut4:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut4:active {
-  transform: scale(2, 2) rotate(-360deg);
-  transition: 0.5s;
-}
-.donut5:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut5:active {
-  transform: scale(2, 2) rotate(360deg);
-  transition: 0.5s;
-}
-.donut6:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut6:active {
-  transform: scale(2, 2) rotate(-360deg);
-  transition: 0.5s;
-}
-.donut7:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut7:active {
-transform: scale(2, 2) rotate(360deg);
-  transition: 0.5s;
-}
-.donut8:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut8:active {
-  transform: scale(2, 2) rotate(-360deg);
-  transition: 0.5s;
-}
-.donut9:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.5s;
-}
-.donut9:active {
-  transform: scale(2, 2) rotate(360deg);
   transition: 0.5s;
 }
