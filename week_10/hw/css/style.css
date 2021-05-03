@@ -189,7 +189,7 @@ body {
 	height: 100vh;
 	background-position: center;
 	background-image:url(https://images.hdqwalls.com/wallpapers/progamming-code-4k-nt.jpg);
-	background-repeat:no-repeat, cover;
+	background-repeat:cover;
 	position: absolute;
 	z-index: 1000;
 	animation-name: closeout;
