@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: hsl(1, 0%, 0%);
+}
+
+.block1 {
+	width: 50%;
+	height: 50%;
+}
