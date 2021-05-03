@@ -188,7 +188,7 @@ body {
 .closeout {
 	height: 100vh;
 	background-position: center;
-	background-image: url(http://www.tfgradio.com/wp-content/uploads/2017/03/matrix.jpg);
+	background-color:red;
 	background-repeat:no-repeat, cover;
 	position: absolute;
 	z-index: 1000;
