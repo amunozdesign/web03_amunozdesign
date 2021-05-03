@@ -1,11 +1,201 @@
 @charset "UTF-8";
 /* CSS Document */
-
 body {
-	background-color: hsl(1, 0%, 0%);
+  background-color: hsl(1, 0%, 0%);
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  animation: backgroundTrans 1s both;
+}
+[class^="block"] {
+  width: 50%;
+  height: 50%;
+}
+.block1 {
+  background-color: hsl(194, 55%, 36%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: slideTopLeft;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+.block2 {
+  background-color: hsl(75, 49%, 37%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation-name: slideBotRight;
+  animation-duration: 1.25s;
+  animation-delay: 250ms;
+  animation-fill-mode: both;
+}
+.block3 {
+  background-color: hsl(36, 45%, 67%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation-name: slideTopRight;
+  animation-duration: 1s;
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
+.block4 {
+  background-color: hsl(32, 85%, 32%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation-name: slideTopLeft;
+  animation-duration: 1000ms;
+  animation-delay: 750ms;
+  animation-fill-mode: both;
+}
+.circulo {
+  border-radius: 50%;
+  border: none;
+  width: 0vw;
+  height: 0vh;
+  position: absolute;
+  animation-name: circulo;
+  animation-duration: 3s;
+  animation-delay: 1550ms;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+  background-color: hsl(36, 94%, 60%);
+}
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	animation-name: secondStage;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+	
+
 }
 
-.block1 {
-	width: 50%;
-	height: 50%;
+
+/*horizontal line*/
+
+
+.box:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 5px;
+  background: #000;
+	animation-name: secondStage;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+}
+
+/*vertical line*/
+.box:after {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 100%;
+  background: #000;
+	animation-name: secondStage;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 50vw;
+  border: 5px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+ animation-name: secondStage;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+}
+.circle.circle2 {
+  width: 40vw;
+  height: 40vw;
+	animation-name: secondStage;
+	animation-duration: 800ms;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+}
+.niddle {
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  height: 4px;
+  width: 1200px;
+  background: #000;
+  animation: niddleAnimation 1s linear 1s infinite;
+	
+	animation-fill-mode: both;
+  transform-origin: left;
+	
+}
+.numbers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.numbers div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 25rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: numbersAnimation 5s linear 1s infinite;
+}
+.numbers div:nth-child(1) {
+  animation-delay: 2s;
+}
+.numbers div:nth-child(2) {
+  animation-delay: 3s;
+}
+.numbers div:nth-child(3) {
+  animation-delay: 4s;
+}
+.numbers div:nth-child(4) {
+  animation-delay: 5s;
+}
+.numbers div:nth-child(5) {
+  animation-delay: 6s;
+}
+
+.closeout {
+	height: 100vh;
+	background-position: center;
+	background-image: url(http://www.tfgradio.com/wp-content/uploads/2017/03/matrix.jpg);
+	background-repeat:no-repeat, cover;
+	position: absolute;
+	z-index: 1000;
+	animation-name: closeout;
+	animation-duration: 400ms;
+	animation-delay: 7s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: both;
+	
 }

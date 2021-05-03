@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+@keyframes backgroundTrans {
+  from {
+    background-color: hsl(231, 100%, 100%);
+  }
+  to {
+    background-color: hsl(1, 0%, 0%);
+  }
+}
+@keyframes slideTopLeft {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%
+  }
+}
+@keyframes slideBotRight {
+  from {
+    right: -100%
+  }
+  to {
+    right: 0;
+  }
+}
+@keyframes slideBotLeft {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0%
+  }
+}
+@keyframes slideTopRight {
+  from {
+    right: -100%
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes secondStage {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes circulo {
+  0% {
+    width: max(1vw, 1vh);
+    height: max(1vw, 1vh);
+  }
+  100% {
+    width: max(500vw, 500vh);
+    height: max(500vw, 500vh);
+  }
+}
+@keyframes niddleAnimation {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+@keyframes	numbersAnimation {
+  0%, 10% {
+    opacity: 1;
+  }
+  10%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes	closeout {
+ 
+  0%   {top: -100%; left: 49%;  width: 2vw; }
+  75%  {top: 0%; left: 49%;  width: 2vw; }
+  
+  85%  {top: 0%; left: 12.5%; width: 75vw; }
+  100% {top: 0%; left: 0%; width: 100vw; }
+}
