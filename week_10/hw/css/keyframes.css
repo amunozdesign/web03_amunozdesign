@@ -40,7 +40,6 @@
     right: 0;
   }
 }
-
 @keyframes secondStage {
   from {
     opacity: 0;
@@ -75,12 +74,25 @@
     opacity: 0;
   }
 }
-
 @keyframes	closeout {
- 
-  0%   {top: -100%; left: 49%;  width: 2vw; }
-  75%  {top: 0%; left: 49%;  width: 2vw; }
-  
-  85%  {top: 0%; left: 12.5%; width: 75vw; }
-  100% {top: 0%; left: 0%; width: 100vw; }
+  0% {
+    top: -100%;
+    left: 49%;
+    width: 2vw;
+  }
+  75% {
+    top: 0%;
+    left: 49%;
+    width: 2vw;
+  }
+  85% {
+    top: 0%;
+    left: 12.5%;
+    width: 75vw;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+  }
 }
