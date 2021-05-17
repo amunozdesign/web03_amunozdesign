@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <link href="style.css" rel="stylesheet">
+<style>	
+	.parallax {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<title>Form and a bit of Java</title>
+</head>
+
+<body>
+<header>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid"> <a class="navbar-brand" href="#">Forms</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#tostado">link1</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#menu">link2</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Social Media</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown10">
+              <li><a class="dropdown-item" href="https://www.instagram.com/explore/locations/901395708/cafe-rio-intag/?hl=en"><img src="img/instagram.jpg" alt="instagram">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://www.facebook.com/CAFE-RIO-INTAG-1734180156598619/"><img src="img/facebook.jpg" alt="facebook"> cafe rio intag</a></li>
+              <li><a class="dropdown-item" href="https://twitter.com/caferiointag"><img src="img/twitter.jpg" alt="twitter">@caferiointag</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<main>
+ 
+	<section class="py-5 text-xl-center parallax">
+    <div class="row py-lg-5">
+      <div class="col-lg-8 col-md-6 mx-auto">
+      
+         <div class="row py-lg-5 my-5">
+      <div class="col-lg-12 col-md-10 mx-auto my-5">
+        <h1 class="titulo" >ready for your next adventure?</h1>
+     
+      </div>
+    </div>
+		  
+      </div>
+    </div>
+  </section> 
+  <section id="reservations" class="container"> 
+    
+    <!-- FEATURETTES -->
+    
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">BLONDE<span class="text-muted"> ROAST .</span></h2>
+        <p class="lead">While it may seem as if Blonde roasts appeared out of nowhere, the concept of an extra-light roast has been around for awhile. The original term for a brew made with beans removed from the roaster at the start off 1st crack was <strong>Cinnamon Roast</strong>. This is due to the color of the resulting brew rather than any specific flavor notes. </p>
+      </div>
+      <div class="col-md-5">
+        <picture>
+          <source media="(min-width:1400px)" srcset="img/Blonde.jpg">
+          <source media="(min-width:992px)" srcset="img/Blonde250.jpg">
+          <source media="(min-width:768px)" srcset="img/blonde350.jpg">
+          <img class="img-fluid" src="img/Blonde.jpg" alt="lake"> </picture>
+       
+        <rect width="100%" height="100%" fill="#eee" />
+        <text x="50%" y="50%" fill="#aaa" dy=".3em">
+          <caption>
+          </caption>
+        </text>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">MEDIUM <span class="text-muted"> ROAST</span></h2>
+        <p class="lead">A Medium Roast coffee has a brown color that is a little darker than light roast. However, just like light roast, it does not have any oil on the surface of the beans. Instead of having delicate flavors, medium roast has a more balanced flavor, aroma, and acidity between dark and light roasts</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <picture>
+          <source media="(min-width:1400px)" srcset="img/medium550.jpg">
+          <source media="(min-width:992px)" srcset="img/medium250.jpg">
+          <source media="(min-width:768px)" srcset="img/medium350.jpg">
+          <img class="img-fluid" src="img/medium550.jpg" alt="bigmountain"> </picture>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">DARK <span class="text-muted"> ROAST</span></h2>
+        <p class="lead">Dark roast coffee beans stay on the roasting machine for a longer time or at a higher temperature. This means the beans will lose more moisture, making them less dense, less caffeinated, and more single-note in flavor.</p>
+      </div>
+      <div class="col-md-5">
+        <picture>
+          <source media="(min-width:1400px)" srcset="img/dark.jpg">
+          <source media="(min-width:992px)" srcset="img/dark250.jpg">
+          <source media="(min-width:768px)" srcset="img/dark350.jpg">
+          <img class="img-fluid" src="img/dark550.jpg" alt="adventureplanning"> </picture>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    
+    <!-- /END THE FEATURETTES --> 
+    
+  </section>
+  
+  <!-- parallax-->
+  <div class="collapse my-5 mx-4" id="Checkoutform">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-8  mx-5">
+        <h2 class="mt-3 title">Reservations</h2>
+        <form action="" method="POST">
+          <fieldset>
+            <div class="mb-3">
+              <label for="userName" class="form-label">Your name</label>
+              <input type="text" class="form-control success" id="userName" name="userName"  placeholder="Type your name..." value="" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="userEmail">Your email address</label>
+              <input type="email" name="userEmail" class="form-control" id="userEmail" placeholder="my@email.com">
+            </div>
+            <div class="mb-3">
+              <label for="useradress">Your Adress</label>
+              <input type="text" name="userName" class="form-control" id="useradress" placeholder="1600 Pennsylvania Ave NW, Washington, D.C">
+            </div>
+            
+			  <div class="mb-3">
+              <label for="cardname" class="form-label">credit card name</label>
+              <input type="text" class="form-control success" id="cardname" name="cardname" placeholder="type a name here" value="" required>
+            </div>
+
+            <div class="col-md-6 ">
+              <label for="validationCustom03" class="form-label">Credit Card Number</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid credit card.
+              </div>
+            </div>
+            
+            <div class="col-md-6 ">
+              <label for="validationCustom03" class="form-label">Expiration Date</label>
+              <input type="text" class="form-control" id="validationCustom03" required placeholder="mm/dd">
+              <div class="invalid-feedback">
+                Please provide a valid credit card.
+              </div>
+            </div>
+
+          
+            <div class="col-md-6 ">
+              <label for="validationCustom05" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+
+  </div>
+
+
+
+            <div class="form-check form-switch my-3">
+              <input type="checkbox" name="termsAgree" id="termsAgree" class="form-check-input">
+              <label for="termsAgree" class="form-check-label">Agree to terms of service.</label>
+            </div>
+
+          
+          <h3 class="title">Shipping Info</h3>
+
+          <div class="form-check">
+                            <input type="checkbox" value="" class="form-check-input" id="copyaddress">
+                            <label class="form-check-label option" for="copyaddress"> address is same as my shipping address</label>
+                        </div>
+			</fieldset>
+          
+            <div class="mb-3">
+              <label for="shippingName" class="form-label">Recepient's name</label>
+              <input type="text" class="form-control success" id="shippingName" name="shippingName" placeholder="type a name here" value="" required>
+            </div>
+            <div class="mb-3">
+              <label for="shippingAddress">Recepient's address</label>
+              <input type="text" name="shippingAddress" id="shippingAddress" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="userLocation">Recipient's location</label>
+              <select class="form-select" name="userLocation" id="userLocation">
+                <option value="la">San Francisco</option>
+                <option value="sd" selected>Los Angeles</option>
+                <option value="sf">San Diego</option>
+                <option value="sc">Monterey</option>
+              </select>
+            </div>
+         
+          <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<section class="py-5 text-center parallax">
+    <div class="row py-lg-5 my-5">
+      <div class="col-lg-6 col-md-8 mx-auto my-5">
+        <h1 class="titulo" >The adventure awaits</h1>
+      
+        <p>  <a class="btn btn-primary" data-bs-toggle="collapse" href="#Checkoutform" role="button" aria-expanded="false" aria-controls="collapseExample">Reserve now!</a> </p>
+      </div>
+    </div>
+  </section>  
+  
+  <!-- Form-->  
+
+  
+ 
+</main>
+<footer>
+  
+</footer>
+
+<!-- Option 1: Bootstrap Bundle with Popper --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

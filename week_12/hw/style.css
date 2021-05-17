@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@100&family=Syne+Mono&display=swap');
+
+h2 {
+  color: aliceblue;
+}
+
+
+
+.titulo {font-family: 'Syne Mono', monospace;
+        font-size: 4rem;
+        color: rgb(154, 161, 161);}
+
+      .title{font-family: 'Merriweather', serif;}
+
+
+      
+      main {
+        background-color: black;
+        color: whitesmoke;}
+        
+      }
+
+      
