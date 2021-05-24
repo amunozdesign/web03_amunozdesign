@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+     
+  </head>
+  <body>
+    
+    <a-scene background="color: #29ab87">
+      
+       <a-assets>
+         <img id="my-image" src="http://placekitten.com/200/300">
+          <a-asset-item id="pond" src="https://poly.googleusercontent.com/downloads/c/fp/1619713125815684/7mrPbZToHh2/87p44NIlys9/Waterfall.gltf"></a-asset-item>
+         <a-asset-item id="Palm" src="https://poly.googleusercontent.com/downloads/c/fp/1602066317836582/cc78qMZWqn5/4JaF9ZR9y1Q/BlenderTest.gltf"></a-asset-item>
+        <a-asset-item id="duck" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+         <a-asset-item id="babyduck" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+         <a-asset-item id="babyduck1" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+         <a-asset-item id="babyduck2" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+           <a-asset-item id="babyduck3" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+          <a-asset-item id="babyduck4" src="https://poly.googleusercontent.com/downloads/c/fp/1602063054843018/1cAO2jZEz1L/epNgJsc2Q-R/Duck.gltf"></a-asset-item>
+         <a-asset-item id="fish" src="https://poly.googleusercontent.com/downloads/c/fp/1601546691111133/8YaXTaGrblh/5_hTYnOBpIF/BarramundiFish.gltf"></a-asset-item>
+         <a-asset-item id="fish1" src="https://poly.googleusercontent.com/downloads/c/fp/1601546691111133/8YaXTaGrblh/5_hTYnOBpIF/BarramundiFish.gltf"></a-asset-item>
+         <a-asset-item id="fish2" src="https://poly.googleusercontent.com/downloads/c/fp/1601546691111133/8YaXTaGrblh/5_hTYnOBpIF/BarramundiFish.gltf"></a-asset-item>
+      </a-assets>
+      
+      <a-entity gltf-model="#pond" position="0 -3.7 -8" rotation="0 90 0" scale=".5 .5 .5"></a-entity>
+      <a-entity gltf-model="#Palm" position="0 -0.3 -5" rotation="0 0 0" scale=".5 .5 .5"></a-entity>
+    <a-entity gltf-model="#duck" position="0 -0.2 -4" rotation="5 -45 0" scale=" 1 1"></a-entity>
+    <a-entity gltf-model="#babyduck1" position="-1 0 -5" rotation="0 -5 0" scale=" .5 .5 .5"></a-entity>
+    <a-entity gltf-model="#babyduck2" position="-2 0 -4.5" rotation="0 20 0" scale=" .3 .3 .3"></a-entity>
+     <a-entity gltf-model="#babyduck3" position="-3 0 -5" rotation="0 0 0" scale=" .2 .2 .2"></a-entity>
+    <a-entity gltf-model="#babyduck4" position="-2 0 -5.5" rotation="0 -30 0" scale=" .2 .2 .12"></a-entity>
+      <a-entity gltf-model="#fish" position="3 -0.3 -7" rotation="-30 0 0" scale=" 2 2 2"></a-entity>
+      <a-entity gltf-model="#fish1" position="2.5 -0.3 -7.9" rotation="-25 -70 0" scale=" 1.75 1.75 1.75"></a-entity>
+      <a-entity gltf-model="#fish2" position="1 -0.4 -7.3" rotation="-15 90 0" scale=" 2.5 2.5 2.5"></a-entity>
+      
+    </a-scene>
+    
+    
+      
+    
+  </body>
+</html>
+
