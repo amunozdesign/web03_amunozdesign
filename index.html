@@ -5,6 +5,48 @@
 	<h1>whatzup!</h1>
 </head>
 <body>
-
+	<p class="line-1 anim-typewriter">PORTFOLIO.</p>
+	
+	<STYLE >
+	
+	* Global */
+	html{
+		min-height: 100%;
+		overflow: none;
+	}
+	body{
+		height: calc(100vh - 8em);
+		padding: 0em;
+		color: rgba(255,255,255,.75);
+		font-family: 'HELVETICA', monospace;  
+		background-color: rgb(25,25,25);  
+	}
+	.line-1{
+			position: relative;
+			top: 50%;  
+			width: 10px;
+			margin: 0 auto;
+			border-right: 2px solid rgba(255,255,255,.75);
+			font-size: 180%;
+			text-align: left;
+			white-space: nowrap;
+			overflow: hidden;
+			transform: translateY(-50%);    
+	}
+	
+	/* Animation */
+	.anim-typewriter{
+		animation: typewriter 2s steps(44) 1s 1 normal both,
+							 blinkTextCursor 500ms steps(44) infinite normal;
+	}
+	@keyframes typewriter{
+		from{width: 0;}
+		to{width: 11rem;}
+	}
+	@keyframes blinkTextCursor{
+		from{border-right-color: rgba(255,255,255,.75);}
+		to{border-right-color: transparent;}
+	}
+	</STYLE>
 </body>
 </html>

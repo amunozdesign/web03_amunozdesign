@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&family=Sirin+Stencil&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sirin Stencil', cursive;  */
+@media only screen and (min-width: 990px) {
+body {
+  background: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  align-content: center;
+  margin: 0;
+
+}
+nav {
+	position:absolute;
+  font-size: 1.9rem;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand {
+ width:  100vw;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+.dropdown-item {
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.glow-on-hover {
+  width: 70px;
+  height: 70px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+.glow-on-hover:active {
+  color: #000
+}
+.glow-on-hover:active:after {
+  background: transparent;
+}
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+	
+	.slideshow {
+		padding: 0;
+	}
+
+.carrouselimg { 
+	
+	text-align: center;
+	height:80vh;
+	width: 100vw;
+	padding: 0;
+	
+}
+.carousel-caption {
+  font-family: 'Lato', sans-serif;
+}
+	
+
+.captionbook{
+	
+
+	width:25%;
+	transform: translate(170%,-30%);
+	background-color: hsla(89, 48%, 50%, 0.81);
+	padding: 1rem; 
+	border-radius: 3rem;
+	text-align: justify;
+}
+.captionbrush{
+	
+	
+	width:30%;
+	transform: translate(10%,-30%);
+	background-color: hsla(89, 48%, 50%, 0.81);
+	padding: 1rem; 
+	border-radius: 3rem;
+	text-align: justify;
+}
+.captionstraw{
+	
+	
+	width:20%;
+	transform: translate(270%,-30%);
+	background-color: hsla(89, 48%, 50%, 0.81);
+	padding: 1rem; 
+	border-radius: 3rem;
+	text-align: justify;
+}
+h1 {
+font-family: 'Sirin Stencil', cursive;
+	font-size: 4rem;
+}
+h3 {
+	font-family: 'Roboto', sans-serif;
+	padding: 1rem;
+	font-size: 100%;
+}
+footer {
+	
+  font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+  
+	
+	margin-top: .9em;
+	height: auto;
+	text-align: center;
+	color: white;
+	
+
+}
+	.socialmedia {width: 7%;}
+	
+	hr {
+		color:hsla(89, 48%, 50%, 1);
+	}
+	
+
