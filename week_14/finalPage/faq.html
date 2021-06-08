@@ -4,16 +4,21 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- link css -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<link href="home.css" rel="stylesheet">
-	
-<title>Reverde</title>
-</head>
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- Custom CSS -->
+<link href="home.css" rel="stylesheet">
+<link href="product.css" rel="stylesheet">
+<title>ReverdeBrush</title>
+<style>
+body {
+    background-color: #ffffff;
+}
+</style>
+</head>
 <body>
-	<header>
+<header>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid"> <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" ></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -29,249 +34,185 @@
             </ul>
           </li>
           <li class="nav-item mx-3"> <a class="nav-link active" aria-current="page" href="blog.html">Blog</a> </li>
-          <li class="nav-item mx-3"> <a class="nav-link active" aria-current="page" href="index.html">F.A.Q</a> </li>
+          <li class="nav-item mx-3"> <a class="nav-link active" aria-current="page" href="faq.html">F.A.Q</a> </li>
           <li class="nav-item mx-3"> <a class="nav-link active" aria-current="page" href="checkout.html">
-			  <button class="glow-on-hover" type="button"><img src="img/cart.png" alt=""></button></a>
-          </li>
+            <button class="glow-on-hover" type="button"><img src="img/cart.png" alt=""></button>
+            </a> </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
 
-<!-- questions? -->
+<!-- carrousel -->
 
-	<style>
-    .faqHeader {
-        font-size: 27px;
-        margin: 20px;
-    }
-
-    .panel-heading [data-toggle="collapse"]:after {
-        font-family: 'Glyphicons Halflings';
-        content: "e072"; /* "play" icon */
-        float: right;
-        color: #F58723;
-        font-size: 18px;
-        line-height: 22px;
-        /* rotate "play" icon from > (right arrow) to down arrow */
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        transform: rotate(-90deg);
-    }
-
-    .panel-heading [data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-        color: #454444;
-    }
-</style>
-	<div class="container">
-    <br />
-    <br />
-    <br />
-
-    <div class="alert alert-warning alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        This section contains a wealth of information, related to <strong>PrepBootstrap</strong> and its store. If you cannot find an answer to your question, 
-        make sure to contact us. 
+<div class="container-fluid blogcontent"> <br>
+  <div class="row">
+    <div class="col"> </div>
+    <div class="col-9">
+      <h1 class="display-1" style="" >Frequently Asked Questions</h1>
+      <h2 class="display-5" style="font-family: 'Roboto', sans-serif; padding: 3rem;"> E-mail us at <i style="color:#218f30;">reverde@gmail.com</i></h2>
     </div>
-
-    <br />
-
-    <div class="" id="accordion">
-        <div class="faqHeader">General questions</div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Is account registration required?</a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="card-block">
-                    Account registration at <strong>PrepBootstrap</strong> is only required if you will be selling or buying themes. 
-                    This ensures a valid communication channel for all parties involved in any transactions. 
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I submit my own Bootstrap templates or themes?</a>
-                </h4>
-            </div>
-            <div id="collapseTen" class="panel-collapse collapse">
-                <div class="card-block">
-                    A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme 
-                    or a free one, you are encouraged to contribute. All credits are published along with the resources. 
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the currency used for all transactions?</a>
-                </h4>
-            </div>
-            <div id="collapseEleven" class="panel-collapse collapse">
-                <div class="card-block">
-                    All prices for themes, templates and other items, including each seller's or buyer's account balance are in <strong>USD</strong>
-                </div>
-            </div>
-        </div>
-
-        <div class="faqHeader">Sellers</div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Who cen sell items?</a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="card-block">
-                    Any registed user, who presents a work, which is genuine and appealing, can post it on <strong>PrepBootstrap</strong>.
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">I want to sell my items - what are the steps?</a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="card-block">
-                    The steps involved in this process are really simple. All you need to do is:
-                    <ul>
-                        <li>Register an account</li>
-                        <li>Activate your account</li>
-                        <li>Go to the <strong>Themes</strong> section and upload your theme</li>
-                        <li>The next step is the approval step, which usually takes about 72 hours.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">How much do I get from each sale?</a>
-                </h4>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="card-block">
-                    Here, at <strong>PrepBootstrap</strong>, we offer a great, 70% rate for each seller, regardless of any restrictions, such as volume, date of entry, etc.
-                    <br />
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Why sell my items here?</a>
-                </h4>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="card-block">
-                    There are a number of reasons why you should join us:
-                    <ul>
-                        <li>A great 70% flat rate for your items.</li>
-                        <li>Fast response/approval times. Many sites take weeks to process a theme or template. And if it gets rejected, there is another iteration. We have aliminated this, and made the process very fast. It only takes up to 72 hours for a template/theme to get reviewed.</li>
-                        <li>We are not an exclusive marketplace. This means that you can sell your items on <strong>PrepBootstrap</strong>, as well as on any other marketplate, and thus increase your earning potential.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">What are the payment options?</a>
-                </h4>
-            </div>
-            <div id="collapseEight" class="panel-collapse collapse">
-                <div class="card-block">
-                    The best way to transfer funds is via Paypal. This secure platform ensures timely payments and a secure environment. 
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">When do I get paid?</a>
-                </h4>
-            </div>
-            <div id="collapseNine" class="panel-collapse collapse">
-                <div class="card-block">
-                    Our standard payment plan provides for monthly payments. At the end of each month, all accumulated funds are transfered to your account. 
-                    The minimum amount of your balance should be at least 70 USD. 
-                </div>
-            </div>
-        </div>
-
-        <div class="faqHeader">Buyers</div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">I want to buy a theme - what are the steps?</a>
-                </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-                <div class="card-block">
-                    Buying a theme on <strong>PrepBootstrap</strong> is really simple. Each theme has a live preview. 
-                    Once you have selected a theme or template, which is to your liking, you can quickly and securely pay via Paypal.
-                    <br />
-                    Once the transaction is complete, you gain full access to the purchased product. 
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-header">
-                <h4 class="card-header">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Is this the latest version of an item</a>
-                </h4>
-            </div>
-            <div id="collapseSeven" class="panel-collapse collapse">
-                <div class="card-block">
-                    Each item in <strong>PrepBootstrap</strong> is maintained to its latest version. This ensures its smooth operation.
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
+<div class="col"> </div>
+<hr class="featurette-divider">
+<div class="container-fluid">
+  <div class="row" style="height: auto;">
+    <div class="col-2"> </div>
+    <div class="col-8">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingone">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseone" aria-expanded="false" aria-controls="collapseone"> Why is Bamboo Sustainable? </button>
+            </h2>
+          </div>
+          <div id="collapseone" class="collapse" aria-labelledby="headingone" data-parent="#accordionExample">
+            <div class="card-body"> Bamboo is a highly sustainable plant. Bamboo can grow to full size in just 3-4 months, compared to standard trees which can take 30+ years to grow.<br>
+              In the right conditions, it can grow 3 feet tall in 24 hours which means you can literally watch it grow with your own eyes! This makes it a super sustainable alternative due to its naturally renewing properties.<br>
+              Plus, nasty pesticides and chemicals aren't required when harvesting bamboo. This means the cultivation is natural, and never harms the environment.</div>
+          </div>
+        </div>
+		  
+		  
+		  
+		   <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> is it safe and hygienic? </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body"> Bamboo fibres are naturally anti-bacterial without needing any toxic chemical treatments, all thanks to its substance called ‘bamboo kun’.<br>
 
 
-
-	
-	
-	
-	
-	
-	
-	
-<footer>
-  <div class="container-fluid">
-   
-	  <div class="row">
-      <div class="col-4 " >
-        <img src="img/minilogo.png" alt="">
+Bamboo kun is found in bamboo fibre and is an antimicrobial bio-agent which gives bamboo its natural antibacterial properties. This prevents bacteria and microbes growing on bamboo products making it the perfect plant for naturally hygienic products such as bamboo straws and cutlery, keeping them sterile and fresh.</div>
+          </div>
+        </div>
+		  
+		  
+		  
+		  
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Is Bamboo Durable? </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body"> It’s no surprise that bamboo is often named as the new ‘green steel’ for its versatility and strength in construction, with entire homes now being built entirely from this robust plant.<br>
+              Bamboo has an astounding strength and lifespan whilst remaining light and easy to carry around. With proper care, your bamboo goodies can be used time and time again without the worry of them deteriorating. <br>
+              Plus, nasty pesticides and chemicals aren't required when harvesting bamboo. This means the cultivation is natural, and never harms the environment.</div>
+          </div>
+        </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		   <div class="card">
+          <div class="card-header" id="headingfour">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour"> Where the materials come from? </button>
+            </h2>
+          </div>
+          <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+            <div class="card-body"> 
+			  <div class="col-4">
+				  <p>Yibin city - China</p>
+			 
+			  
+			  </div>
+				<div class="col-4">
+					 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223826.75071688672!2d104.48953016427973!3d28.77051920113585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36e90d0545d56281%3A0x34b7d416634bc0e7!2sYibin%2C%20Sichuan%2C%20China!5e0!3m2!1sen!2sus!4v1623154346853!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+          </div>
+        </div>
+		  
+		  
+		  		   <div class="card">
+          <div class="card-header" id="headingfive">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive"> Contact us </button>
+            </h2>
+          </div>
+          <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+            <div class="card-body"> 
+			  <div class="col-4">
+				  <p>Send us a message!</p>
+			 
+			  
+			  </div>
+				<div class="col-4">
+					
+					
+					<form class="needs-validation">
+  <div class="form-group">
+    <label for="youremail">Your Email</label>
+    <input type="email" class="form-control" id="youremail" placeholder="name@example.com" required>
+	  
+	  <div class="valid-feedback">
+        Looks good!
       </div>
+	  
+	  
+  </div>
+  <div class="form-group">
+    <label for="options">Select an option:
+		</label>
+    <select class="form-control" id="options" required>
+      <option>request quotes</option>
+      <option>Customer Service</option>
+      <option>Returns</option>
+      <option>Chit Chat</option>
+      <option>The Winter is comming</option>
+    </select>
+	   <div class="valid-feedback">
+        Looks good!
+      </div>
+  </div>
+  <div class="form-group">
+    
+  </div>
+  <div class="form-group">
+    <label for="Textarea1">Write us a word!</label>
+    <textarea class="form-control" id="Textarea1" rows="6" placeholder="How can we help you?" required></textarea>
+	  <div class="valid-feedback">
+        Looks good!
+      </div>
+  </div>
+						<a href="#"><button type="submit" class="btn btn-primary">Submit</button></a>
+</form>
+					
+					
+				</div>
+          </div>
+        </div>
+		  
+		  
+      </div>
+    </div>
+    <div class="col-2"> </div>
+  </div>
+</div>
+</div>
+<footer style="background-color: #ffffff; color: #000000">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 " > <img src="img/minilogo.png" alt=""> </div>
       <div class="col-4"> <a href="#"><img class="socialmedia" src="img/fb.png" alt="facebook"></a> <a href="#"><img class="socialmedia"  src="img/ig.png" alt="instagram"></a> <a href="#"><img  class="socialmedia" src="img/twt.png" alt="twitter"></a> <a href="#"><img  class="socialmedia" src="img/wp.png" alt="whatsapp"></a> </div>
       <div class="col-4">
-       
-		 <p>Merida-Venezuela®</p>
-		   <p>+584166748268</p>
+        <p>Merida-Venezuela®</p>
+        <p>+584166748268</p>
       </div>
     </div>
   </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-  </script> 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
